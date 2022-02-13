@@ -1,0 +1,19 @@
+@import "deimos-ui/src/styles/main.scss";
+
+body {
+  color: var(--color-white);
+
+  background-color: var(--color-black);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80vw;
+  min-width: 320px;
+
+  margin: 20px auto;
+  padding: 20px;
+}
